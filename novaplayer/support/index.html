@@ -1,0 +1,59 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>NovaPlayer — Support</title>
+<link rel="stylesheet" href="../../assets.css">
+</head>
+<body>
+<main>
+  <nav><a href="../">NovaPlayer</a><a href="../privacy/">Privacy</a></nav>
+  <h1>Support</h1>
+  <p class="lead">Help with sources, scanning, playback, metadata and iCloud sync.</p>
+  <div class="card">
+    <strong>Contact</strong>
+    <p><a href="https://github.com/chengwind198/SpeakKeep-site/issues/new">Open a NovaPlayer support request</a>. Include the app version, platform, server or source type, the exact error message and stable error code. Do not include passwords, OAuth tokens or private media URLs.</p>
+  </div>
+
+  <h2>FAQ (English)</h2>
+  <h3>Nothing appears after adding a source</h3>
+  <p>Open Settings → Sources &amp; Network → Sources and run Scan All Sources. Confirm that the device may access the local network and that the server is reachable.</p>
+  <h3>How should I enter a media server?</h3>
+  <p>Choose Emby, Plex or Jellyfin as separate entries. Enter the protocol, host or IP, port and optional path separately. Emby and Jellyfin commonly use HTTP port 8096; Plex commonly uses port 32400 and requires a token.</p>
+  <h3>What does Test do?</h3>
+  <p>Test checks the current form without saving it. It validates the address, credential and protocol by reading the first directory page. A failed test shows a user-facing explanation and a stable error code.</p>
+  <h3>Authentication failed</h3>
+  <p>Check the username, password or token and the selected server type. Plex accepts a server access token; Jellyfin and Emby normally use username and password.</p>
+  <h3>Why does metadata or artwork not load?</h3>
+  <p>NovaPlayer uses TMDB for metadata and artwork. Check the network connection and the TMDB API key in Settings → Library &amp; Metadata. Key tests use the current draft without saving it first.</p>
+  <h3>How does iCloud sync work?</h3>
+  <p>Sync is optional and requires Pro. Supported progress, favorites and settings go to your private iCloud database. Media files remain on their original source and credentials stay in Apple Keychain.</p>
+  <h3>Restore a purchase</h3>
+  <p>Open Settings → Subscription and use Restore Purchases while signed in with the same Apple Account.</p>
+  <h3>Privacy and deletion</h3>
+  <p>See the <a href="../privacy/">privacy policy</a>. Delete sources in the app before uninstalling if you want their Keychain credentials removed.</p>
+
+  <hr>
+
+  <h2>常见问题（简体中文）</h2>
+  <h3>添加来源后没有内容</h3>
+  <p>进入「设置 → 来源与网络 → 来源」，点击「扫描全部来源」。同时确认已允许本地网络访问，且服务器可以连接。</p>
+  <h3>媒体服务器怎么填写？</h3>
+  <p>Emby、Plex、Jellyfin 是三个独立入口。协议、地址、端口和可选路径分开填写。Emby / Jellyfin 常用 HTTP 8096；Plex 常用 32400，并要求填写令牌。</p>
+  <h3>“测试”按钮会做什么？</h3>
+  <p>测试只使用当前表单，不会保存来源。它会读取来源首页，验证地址、凭据和协议；失败时会显示用户化原因与稳定错误码。</p>
+  <h3>认证失败</h3>
+  <p>请核对用户名、密码或令牌，并确认服务器类型选择正确。Plex 使用服务器访问令牌；Jellyfin / Emby 通常使用用户名与密码。</p>
+  <h3>元数据或海报没有加载</h3>
+  <p>NovaPlayer 使用 TMDB 获取元数据与海报。请检查网络，以及「设置 → 媒体库与元数据」中的 TMDB Key。Key 测试会直接测试当前草稿，不要求先保存。</p>
+  <h3>iCloud 同步怎么工作？</h3>
+  <p>同步为 Pro 可选功能。受支持的进度、收藏与设置进入你的 iCloud 私有数据库；媒体文件仍保留在原来源，凭据仍保存在 Apple 钥匙串。</p>
+  <h3>恢复购买</h3>
+  <p>使用同一个 Apple 账号登录后，在「设置 → 订阅」中点击恢复购买。</p>
+  <h3>隐私与删除</h3>
+  <p>请阅读<a href="../privacy/">隐私政策</a>。如需清除来源凭据，请先在应用内删除来源，再卸载应用。</p>
+  <footer>© 2026 NovaPlayer · <a href="../privacy/">Privacy Policy</a></footer>
+</main>
+</body>
+</html>
