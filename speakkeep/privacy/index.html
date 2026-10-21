@@ -1,0 +1,98 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SpeakKeep — Privacy Policy</title>
+<link rel="stylesheet" href="assets.css">
+</head>
+<body>
+<main>
+  <nav><a href="./">SpeakKeep</a><a href="support/">Support</a></nav>
+  <h1>Privacy Policy</h1>
+  <p class="lead">SpeakKeep has no developer server and no account system. Recordings, transcripts, tags and tasks stay on your device unless you explicitly turn on iCloud private sync.</p>
+  <p><em>Last updated: 17 October 2026 · applies to SpeakKeep 1.0.1 and later.</em></p>
+
+  <h2>What we collect</h2>
+  <p><strong>We do not collect personal data.</strong> SpeakKeep does not require an account, does not include advertising, analytics or crash-reporting SDKs, and does not upload your recordings, transcripts, tags, tasks or device identifiers to a developer server. SpeakKeep cannot read another app’s recordings; imports only happen when you choose a file through the system share sheet or file picker.</p>
+
+  <h2>Where your data is stored</h2>
+  <table>
+    <tr><th>Data</th><th>Location</th></tr>
+    <tr><td>Recordings (.m4a)</td><td>App sandbox Documents (visible in the Files app)</td></tr>
+    <tr><td>Notes, transcripts, timestamps, tags, tasks</td><td>App sandbox database</td></tr>
+    <tr><td>Full-text search index</td><td>App sandbox support directory (rebuildable)</td></tr>
+    <tr><td>Spotlight index</td><td>Your device; can be cleared in Settings</td></tr>
+    <tr><td>Local transcription model</td><td>App sandbox; a static file that does not include your content</td></tr>
+  </table>
+  <p>Deleting a note removes its audio and related data. Deleting the app removes all data stored on that device.</p>
+
+  <h2>iCloud private sync (optional, included with the one-time purchase)</h2>
+  <p>iCloud sync is off by default and only starts after you turn it on in Settings → iCloud Sync. When enabled, <strong>note text</strong> syncs to your own private CloudKit database and <strong>recordings</strong> are stored in the SpeakKeep folder inside your own iCloud Drive. Both live in your iCloud account; the developer cannot read them. Turning the switch off and reopening the app stops syncing; local data is not deleted. On a new device, text arrives first and audio downloads on demand.</p>
+
+  <h2>Permissions</h2>
+  <ul>
+    <li><strong>Microphone</strong> — only while you are recording a voice note.</li>
+    <li><strong>Speech recognition</strong> — converts recordings to text. SpeakKeep uses on-device recognition and does not fall back to network recognition.</li>
+    <li><strong>Photos (add only)</strong> — declared for saving a share card image; it is not requested until you use that action.</li>
+  </ul>
+  <p>You can change any permission in iOS Settings. Existing data is not affected.</p>
+
+  <h2>Network access</h2>
+  <p>SpeakKeep makes network requests only to:</p>
+  <ol>
+    <li>initialize the optional local transcription model (a static file);</li>
+    <li>complete App Store purchases and restore purchases through StoreKit.</li>
+  </ol>
+  <p>Transcription, search, tagging and task extraction run on device and do not need a network connection.</p>
+  <h2>Children</h2>
+  <p>SpeakKeep does not collect data from anyone, including children. The app is rated 4+.</p>
+
+  <h2>Contact</h2>
+  <p>Questions about this policy: <a href="support/">visit the support page</a>.</p>
+
+  <hr>
+
+  <h2>隐私政策（简体中文）</h2>
+  <p>最后更新：2026-10-17，适用于 SpeakKeep 1.0.1 及以后版本。</p>
+
+  <h3>一句话说明</h3>
+  <p>SpeakKeep <strong>没有开发者服务器，也没有账号体系</strong>。录音、转写文本、标签与任务默认全部在你的设备上处理与保存；只有你主动开启 iCloud 私有同步时，数据才会进入你自己的 iCloud 空间。</p>
+
+  <h3>我们收集什么</h3>
+  <p><strong>我们不收集任何个人数据。</strong>App 不接入广告、分析或崩溃上报 SDK，不把录音、文本、标签、任务或设备标识上传到开发者服务器；也不具备读取系统「语音备忘录」数据库的能力，导入只能由你通过系统分享面板或文件选择器发起。</p>
+
+  <h3>数据保存在哪里</h3>
+  <table>
+    <tr><th>数据</th><th>位置</th></tr>
+    <tr><td>录音（.m4a）</td><td>App 沙盒 Documents（可在「文件」App 查看）</td></tr>
+    <tr><td>笔记、转写、时间戳、标签、任务</td><td>App 沙盒数据库</td></tr>
+    <tr><td>全文搜索索引</td><td>App 沙盒支持目录（可重建）</td></tr>
+    <tr><td>Spotlight 索引</td><td>你的设备（可在系统设置清除）</td></tr>
+    <tr><td>本地转写模型</td><td>App 沙盒；静态模型文件，不含你的任何内容</td></tr>
+  </table>
+  <p>删除笔记会同时删除音频与相关数据；卸载 App 会删除设备上的全部数据。</p>
+
+  <h3>iCloud 私有同步（可选，买断包含）</h3>
+  <p>默认关闭，只有在「设置 → iCloud 同步」里手动开启后才会生效。开启后，<strong>笔记文字</strong>同步到你自己的 iCloud 私有数据库，<strong>录音</strong>放进你 iCloud Drive 里本 App 的 SpeakKeep 文件夹；两者都在你自己的 iCloud 账户中，开发者无法读取。关闭开关并重新打开 App 后停止同步，本机数据不受影响。换机时文字先到、音频按需下载。</p>
+
+  <h3>权限</h3>
+  <ul>
+    <li><strong>麦克风</strong>：仅在你按下录音键时使用。</li>
+    <li><strong>语音识别</strong>：把录音转成文字；强制使用设备端识别，不回落到联网识别。</li>
+    <li><strong>相册（仅添加）</strong>：用于保存长图；未使用该功能时不会请求。</li>
+  </ul>
+
+  <h3>网络访问</h3>
+  <p>App 只在两种情况下联网：初始化可选的本地转写模型（静态文件）；通过 StoreKit 完成购买与恢复购买。转写、搜索、标签与任务提取都在设备端完成，不需要网络。</p>
+
+  <h3>儿童隐私</h3>
+  <p>SpeakKeep 不收集任何人的数据（包括儿童），年龄分级 4+。</p>
+
+  <h3>联系我们</h3>
+  <p>隐私相关问题请访问<a href="support/">支持页面</a>。</p>
+
+  <footer>© 2026 SpeakKeep · <a href="support/">Support</a></footer>
+</main>
+</body>
+</html>
